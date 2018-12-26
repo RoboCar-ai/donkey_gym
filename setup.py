@@ -5,6 +5,6 @@ setup(name="donkey_gym",
       url="https://github.com/tawnkramer/sdsandbox/src/donkey_gym",
       author="Tawn Kramer",
       license="MIT",
-      packages=["donkey_gym"],
+      packages=["donkey_gym", "donkey_gym.envs"],
       install_requires = ["gym", "numpy", 'pillow']
       )
